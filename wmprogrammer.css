@@ -1,0 +1,175 @@
+:root{
+    --cor-primaria: black;
+    --cor-secundaria: darkturquoise;
+    --cor-terciaria: darkviolet;
+    --cor-quartaria: yellow;
+
+    --fonte-primaria: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --fonte-secundaria: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+   
+body{
+    background-color: var(--cor-primaria);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.titulo_principal{
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    border: 3px solid var(--cor-terciaria);
+    color: var(--cor-secundaria)
+}
+
+.texto_introducao{
+    font-family: var(--fonte-secundaria);
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    border: 3px solid var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+    text-shadow: 1px 1px var(--cor-terciaria);
+}
+
+.frase_instrucao{
+    font-family: var(--fonte-secundaria);
+    font-size: 25px;
+    font-size: 1.5rem;
+    color: var(--cor-secundaria);
+    text-align: center;
+    text-shadow: 1px 1px var(--cor-quartaria);
+}
+
+.frase_instrucao_02{
+    font-family: var(--fonte-secundaria);
+    font-size: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--cor-secundaria);
+    text-shadow: 1px 1px var(--cor-terciaria);
+}
+
+.container_imagens{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+
+}
+
+.imagem_instagram{
+    position: absolute;
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    font-size: 5px;
+
+}
+    
+.imagem_whatsaap{
+    position: absolute;
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 5px;
+}
+
+.imagem_github{
+    position: absolute;
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 5px;
+}
+
+.imagem_linkedin{
+    position: absolute;
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    font-size: 5px;
+
+}
+
+.botao_de_contato{
+     max-width: 100%;
+    width: 50px;
+    top: 10px;
+}
+
+.imagem_programmer{
+    position: absolute;
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    top: 60%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    font-size: 5px;
+}
+
+.botao_programacao_dois{
+    position: absolute;
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    top: 55%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    font-size: 5px;
+}
+
+.botao_programacao_tres{
+    position: absolute;
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    top: 55%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    font-size: 5px;
+}
+
+.botao_voltar{
+  max-width: 100%;
+    width: 70px;
+    top: 10px;
+}
+
+.introducao_programa{
+    font-family: var(--fonte-secundaria);
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    border: 3px solid var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+    text-shadow: 1px 1px var(--cor-terciaria);
+    top: 50px;
+}
+
+@media (max-width: 1200px){
+    .container{
+        flex-direction: column-reverse;
+        padding: 5%;
+        width: auto;
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wmprogrammer.css">
+</head>
+<body> 
+    <p class="introducao_programa" >Este é um programa de cadastro de itens em uma lista!</p>
+<canvas class="desenha_tela" width="800" height="600"></canvas>
+<div class="container_imagens">
+    <a class="link_botao_voltar" href="wmprogrammer.html">
+        <img class="botao_voltar" src="assets/icone_programação.png" alt="botao voltar">
+    </a>
+</div>
+
+
+
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(100, 10, 800, 600);
+
+    function introducaoPrograma(){
+        console.log("*************")
+        console.log("**Bem-vindo**")
+        console.log("*************")
+    }
+
+    introducaoPrograma();
+
+</script>
+    
+</body>
+</html>
