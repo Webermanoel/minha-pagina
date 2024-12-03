@@ -13,6 +13,19 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-image: url(assets/fundoprograma.js.png);
+}
+
+.entrada_do_usuario{
+    width: 300px;
+    height: 5px;
+    left: 58%;
+    border-radius: 15px;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    padding: 2rem;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 .titulo_principal{
