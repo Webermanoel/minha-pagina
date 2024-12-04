@@ -1,13 +1,13 @@
 let itensDaLista = [];
+let limiteItens = 10;
 
 
-function exibirTextoNaTela(){
+function exibirTextoNaTela(tag, texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    print('H1', 'Bem-vindo ao programa de cadastro de itens');
 }
 
-exibirTextoNaTela();
+exibirTextoNaTela('h1', 'Bem-vindo ao programa de cadastro de itens');
 
 function salvarItens(){
   let itensCadastrados = document.querySelector('input').value;
@@ -17,3 +17,16 @@ function salvarItens(){
   }
 
   }
+
+  function limparCampo() {
+    chute = document.querySelector('input');
+    chute.itensCadastrados = 10;
+}
+
+function reiniciarLista(){
+
+}
+
+function mostrarLista(){
+
+}
