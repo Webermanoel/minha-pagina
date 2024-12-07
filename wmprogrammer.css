@@ -3,20 +3,24 @@
     --cor-secundaria: darkturquoise;
     --cor-terciaria: darkviolet;
     --cor-quartaria: yellow;
+    --cor-quintaria: white;
 
     --fonte-primaria: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     --fonte-secundaria: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
    
 body{
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-quintaria);
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     background-image: url(assets/fundoprograma.js.png);
 }
 
-
+.texto{
+    background-color: var(--cor-quintaria);
+    color: var(--cor-secundaria);
+}
 
 .entrada_do_usuario{
     text-align: center;
